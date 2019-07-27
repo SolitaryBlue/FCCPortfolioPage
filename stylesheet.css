@@ -1,4 +1,21 @@
 .navbar li {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.navbar-brand {
+    padding-left: 35px;
+}
+
+#welcome-section {
+    background-image: url("https://images.unsplash.com/photo-1454165205744-3b78555e5572?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fefefe;
+    text-align: center;
+}
+
+#welcome-section h1 {
+    font-size: 3em; 
 }
