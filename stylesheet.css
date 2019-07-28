@@ -8,10 +8,6 @@
 }
 
 #welcome-section {
-    background-image: url("https://images.unsplash.com/photo-1454165205744-3b78555e5572?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     color: #fefefe;
     text-align: center;
 }
@@ -19,3 +15,30 @@
 #welcome-section h1 {
     font-size: 3em; 
 }
+
+.jumbotron {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+.jumbotron .container {
+    position: relative;
+    z-index: 2;
+}
+
+.jumbotron:after {
+    content:"";
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;  
+    background:url("images/backgroundimg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(5.5px);
+    transform: scale(1.1);
+  }
