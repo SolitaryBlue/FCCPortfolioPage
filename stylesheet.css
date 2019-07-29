@@ -4,9 +4,14 @@
 }
 
 .navbar-brand {
-    padding-left: 35px;
+    padding-left: 5vw;
 }
 
+#navbarSupportedContent {
+    padding-right: 5vw;
+}
+
+/* Welcome section */
 #welcome-section {
     color: #fefefe;
     text-align: center;
@@ -42,6 +47,11 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    filter: blur(5.5px);
-    transform: scale(1.1);
+    filter: blur(3.5px);
   }
+
+  /* Projects Section */ 
+#projects h2 {
+    text-align: center;
+    padding-bottom: 1rem;
+}
