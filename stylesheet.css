@@ -1,3 +1,7 @@
+body {
+    background-color: #D5D4BF;
+}
+
 .navbar li {
     padding-left: 25px;
     padding-right: 25px;
@@ -51,6 +55,7 @@
   }
 
   /* Projects Section */ 
+
 #projects h2 {
     text-align: center;
     padding-bottom: 1rem;
@@ -59,8 +64,13 @@
     padding-bottom: 4rem;
 }
 
+#row2 {
+    padding-bottom: 5em;
+}
+
 .img-thumbnail {
     display: block;
+    margin: auto;
     max-width: 400px;
     max-height: 400px;
     width: auto;
@@ -71,6 +81,7 @@ figcaption {
     position: relative;
     bottom: 0;
     display: block;
+    margin: auto;
     max-width: 400px;
     max-height: 400px;
     width: auto;
@@ -80,4 +91,27 @@ figcaption {
     text-align: center;
     text-transform: uppercase;
     font-size: 1rem;
+}
+
+/* Contact / profile-link section */ 
+
+#contact {
+    background-color: #cccccc;
+}
+
+#social {
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+}
+
+#contact h3 {
+    padding-top: 1rem;
+}
+
+.fab {
+    color: #333333;
+    bottom: 0;
+    margin: auto;
+    padding: 2rem;
 }
